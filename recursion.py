@@ -5,10 +5,9 @@ Factorials
 
 def factorial(n):
     if n == 1:
-        print(n)
-        print(1)
         return 1
-    print(n)
     return n * factorial(n-1)
 
 factorial(4)
+
+"""to debug, add debug dot on factorial(4) and open up the run and debug console"""
