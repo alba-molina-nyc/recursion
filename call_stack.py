@@ -4,9 +4,10 @@ def functionThree():
 def functionTwo():
     functionThree()
     print('Two')
-functionTwo()
+
 
 def functionOne():
+    functionTwo()
     print('One')
 functionOne()
 
